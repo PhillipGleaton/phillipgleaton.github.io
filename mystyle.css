@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+  }
+  
+  h2 {
+    color: gray;
+    text-align: center;
+  }
+
+
+marquee {
+    font-size:20px;
+}
