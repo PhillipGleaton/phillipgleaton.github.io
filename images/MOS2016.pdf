@@ -1,0 +1,345 @@
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en" >
+<html>
+<head>
+    <title>Print Transcript</title>
+    <link href="/portal/Portal.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/portal/Javascript/Common.js?ver=1"></script>
+    <script type="text/javascript" src="/Portal/Utility/JQuerySupport.js"></script>
+    <script type="text/javascript" src="/portal/webresources/js/cpsb_compass.js"></script>
+
+    <style type="text/css">
+        .AccessibilityText {
+            font-size: 12px;
+        }
+
+        .AccessibilityBulletedList {
+            line-height: 13pt;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <noscript>
+        Cannot determine if you have Adobe Acrobat installed on this machine. You must enable JavaScript permissions before you can continue.
+    </noscript>
+
+    <script type="text/javascript" language="javascript">
+	<!--
+    var CheckPDF = getAcrobatInfo();
+    if (!CheckPDF.acrobat) {
+        window.navigate("NoPDFInstalled.aspx?ReturnLocation=" + window.location + "&ty=cp");
+    }
+    //-->
+    </script>
+
+    <script type="text/javascript" language="javascript">
+        function toggle() {
+            var ele = document.getElementById("c_ToggleText");
+            var text = document.getElementById('c_ShowAccessibility' + "_c_CommandBtn");
+            if (ele != null && text != null) {
+                if (ele.style.display == "block") {
+                    ele.style.display = "none";
+                    text.innerHTML = 'Show Accessibility Information...';
+                }
+                else {
+                    ele.style.display = "block";
+                    text.innerHTML = 'Hide Accessibility Information...';
+                }
+            }
+        }
+    </script>
+
+    <form method="post" action="./PrintTranscriptInfo.aspx?action=Cert&amp;id=255&amp;cvid=ZUs6y%2FplZfhKDN6Rv%20MMoA%3D%3D" id="Form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Portal/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZF3GJHrLTW2awM3HyYNf-kWj28gCAgDG2AXMJ3yZcRSWrrtwXGoyRAD4Qu-Ua78X5A2&amp;t=637814437746327080" type="text/javascript"></script>
+
+<script language='javascript'>function displayPrivacyFooter() {var privacy ='privacy_window'; window.open('http://www.pearsonvue.com/legal/privacy/', privacy, 'titlebar=no,toolbar=no,status=no,location=no,menubar=no,resizable=no,scrollbars=yes,height=1000,width=1050');return;}</script><script language='javascript'>function displayCookieFooter() {var privacy ='privacy_window'; window.open('https://home.pearsonvue.com/Legal/Privacy-and-cookies-policy.aspx#cookies-and-web-beacons', privacy, 'titlebar=no,toolbar=no,status=no,location=no,menubar=no,resizable=no,scrollbars=yes,height=1000,width=1050');return;}</script>
+<script src="/Portal/WebResource.axd?d=JoBkLzP19aTuxbWOhHobYuD7vXfORRlTwxWfE50kHOfv5MQp16eQ6i5QR_enxDAfb07K_YDZlXrx_M4Pp2VNvg2&amp;t=637814437746327080" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2F602153" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="BljjvmCg35L88b/Q1yHT2iDcEE3/Lu4XojEVrNhWr7cfbnfkg81iSEFSefKUTpzOiog2r9tXzz3lDj1h21a32ISOGGvp7Z+YV50E6tdttm8oDaVLxQr957ENqsF3ixa/EIONerrHqmOaXZ6Jq5vaUt9gMuActeJo+Rdol3Z546wrGlA0G9bO9qYRuYiHXFqVv1PnVKn5vNRjRVFicCtdd9CE9Yieg8eIIMNllO0oJfwGug0e6X/2qgTS9OOqVI7ecrEe6nkdjYlPsL35ycr6hQ==" />
+</div>
+        <table id="Table1" cellspacing="0" cellpadding="0" width="100%" border="0" role="presentation">
+	<tr>
+		<td width="100%" align="center">
+					<table id="c_BannerContainer" cellspacing="0" cellpadding="0" width="1000" border="0" role="presentation">
+			<tr>
+				<td>
+								<table cellspacing="0" cellpadding="0" width="100%" border="0">
+									<tr>										
+										<td><header role="banner">
+<meta content="False" name="vs_showGrid" />
+<table id="c_Banner_c_BannerTbl" cellspacing="0" cellpadding="0" border="0" width="100%" role="presentation">
+					<tr>
+						<td>
+            <table id="c_Banner_c_LogoTbl" cellspacing="0" cellpadding="0" width="100%" height="69" border="0" background="/portal/images/CertiportHeader.jpg" role="presentation">
+							<tr>
+								<td width="305">&nbsp;
+                    </td>
+								<td>
+                        
+                    </td>
+								<td nowrap="nowrap" align="right">
+                        
+                    </td>
+								<td style="width:&#32;30px;">&nbsp;
+                    </td>
+							</tr>
+						</table>
+						
+        </td>
+					</tr>
+				</table>
+				
+
+<script type="text/javascript">
+    function disableRoleSelector(element) {
+        if (element.hasAttribute('data-selection')) {
+            element.selectedIndex = element.getAttribute('data-selection');
+        } else {
+            element.setAttribute('data-selection', element.selectedIndex);
+            element.style.borderColor = "#767676"
+            element.style.opacity = "0.7";
+            element.style.pointerEvents = "none";
+            element.tabIndex = "-1";
+            element.ariaDisabled = "true";
+            element.blur();
+        }
+    }
+    
+</script>
+</header></td>										
+									</tr>
+									<tr style="background-color: White;"><td>&nbsp;</td></tr>
+								</table>
+							</td>
+			</tr>
+		</table>
+		
+					<table cellspacing="0" cellpadding="0" width="1000" border="0" role="presentation">
+						<tr>
+							<td width="30" style="background-color: White;">&nbsp;</td>
+							<td width="*" style="background-color: White;">								
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tr style="height: 30px;">
+                <td align="center" colspan="2">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td width="500px">
+                    
+                </td>
+                <td align="right">
+                    <table id="c_ShowAccessibility_c_Table" style="padding:&#32;0px;&#32;border-collapse:&#32;collapse;&#32;border-spacing:&#32;0px;">
+			<tr class="MASBtn">
+				<td id="c_ShowAccessibility_c_TextCell" class="Link">
+            <a id="c_ShowAccessibility_c_CommandBtn" title="Show&#32;Accessibility&#32;Information..." title="" href="javascript:toggle();" href="javascript:__doPostBack(&#39;c_ShowAccessibility$c_CommandBtn&#39;,&#39;&#39;)">&nbsp;Show Accessibility Information...&nbsp;</a>
+        </td>
+			</tr>
+		</table>
+		
+
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <div id="c_ToggleText" style="display:&#32;none" class="AccessibilityText">
+                        <span id="c_IntroText" class="AccessibilityText">To access the content of this document with Adobe Acrobat &quot;Read Out Loud&quot; pdf screen reader:</br></span>
+                        <ul>
+                            <li><span id="c_Instructions3" class="AccessibilityText"><a title="Save a copy of this document to your local hard drive." href="javascript:__doPostBack('c_DownloadBtn$c_CommandBtn','')">Save a copy of this document to your local hard drive.</a></span></li>
+                            <li><span id="c_Instructions4" class="AccessibilityText">Open the saved pdf file with Adobe Acrobat Reader.</span></li>
+                            <li><span id="c_Instructions5" class="AccessibilityText">Activate Adobe Acrobat "Read Out Loud" screen reader by pressing Shift+Ctrl+Y keys.</span></li>
+                            <li><span id="c_Instructions6" class="AccessibilityText">Use "Read Out Loud" option to read the document by pressing Shift+Ctrl+V keys.</span></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tr>
+                <td>
+                    <div id="c_ResultsFrame"><iframe height='1000' id='ifResults' frameborder='1' scrolling='auto' runat='server' src='/Portal/Pages/PDFView.aspx?id=Cert814215827226' width='100%'></iframe></div>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <table cellspacing="0" cellpadding="5" width="100%" border="0">
+            <tr>
+                <td style="width: 90%;" align="right">
+                    <span id="c_PaperSizeLbl">Paper size:</span>
+                </td>
+                <td>
+                    <select name="c_PaperSizeList" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;c_PaperSizeList\&#39;,\&#39;\&#39;)&#39;,&#32;0)" id="c_PaperSizeList" aria-label="Paper&#32;size">
+			<option selected="selected" value="1">Standard</option>
+			<option value="2">A4</option>
+			<option value="3">B5</option>
+
+		</select>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="0" cellpadding="5" width="100%" border="0">
+            <tr>
+                <td style="width: 90%;">
+                    
+                </td>
+                <td valign="top"></td>
+                <td valign="top" align="right">
+                    <table id="c_DownloadBtn_c_Table" style="padding:&#32;0px;&#32;border-collapse:&#32;collapse;&#32;border-spacing:&#32;0px;">
+			<tr class="MASBtn">
+				<td id="c_DownloadBtn_c_TextCell" class="Button">
+            <a id="c_DownloadBtn_c_CommandBtn" title="Download&#32;PDF" title="Download&#32;PDF" href="javascript:__doPostBack(&#39;c_DownloadBtn$c_CommandBtn&#39;,&#39;&#39;)">&nbsp;Download PDF&nbsp;</a>
+        </td>
+			</tr>
+		</table>
+		
+
+                </td>
+                <td valign="top" align="right">
+                    <table id="c_DoneBtn_c_Table" style="padding:&#32;0px;&#32;border-collapse:&#32;collapse;&#32;border-spacing:&#32;0px;">
+			<tr class="MASBtn">
+				<td id="c_DoneBtn_c_TextCell" class="Button">
+            <a id="c_DoneBtn_c_CommandBtn" title="Done" title="Done" href="javascript:__doPostBack(&#39;c_DoneBtn$c_CommandBtn&#39;,&#39;&#39;)">&nbsp;Done&nbsp;</a>
+        </td>
+			</tr>
+		</table>
+		
+
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 15px;" colspan="3"></td>
+            </tr>
+        </table>
+        
+							</td>
+							<td width="30" style="background-color: White;">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+	</tr>
+</table>
+
+		<div id="footerdiv" align="center"><footer role="contentinfo">
+<meta charset="UTF-8" />
+<link href="/Portal/footer.css?v=3.0" rel="stylesheet" />
+
+<script src="/portal/webresources/js/cpsb_compass.js"></script>
+
+<div id="footer">
+    <table id="c_Footer_c_Footer" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation" style="width:&#32;100%">
+	<tr>
+		<td width="20%">
+                <div class="textcomponents-left">
+                    <span id="c_Footer_c_ServerId" class="plaintext-light">1</span>
+                </div>
+            </td>
+		<td width="60%" valign="middle" align="center" style="white-space:&#32;nowrap;">
+                <div class="textcomponents-middle">
+                    <span id="c_Footer_c_CopyrightLbl" class="plaintext">Copyright 1996-2022 Pearson Education Inc. or its affiliate(s). All rights reserved.</span>
+                    <br />
+                    <a href="javascript:displayPrivacyFooter();" id="c_Footer_c_PrivacyStatement" alt="Privacy&#32;and&#32;Cookies&#32;Policy" title="Privacy&#32;and&#32;Cookies&#32;Policy">Privacy and Cookies Policy</a>
+                    <span id="c_Footer_divider2" class="plaintext" aria-hidden="true">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a id="c_Footer_c_SitemapBtn" alt="Sitemap" title="Sitemap" href="javascript:__doPostBack(&#39;c_Footer$c_SitemapBtn&#39;,&#39;&#39;)">Sitemap</a>&nbsp;
+					
+                </div>
+            </td>
+		<td width="20%" align="right">
+                <div class="icons">
+                    <a href="http://www.twitter.com/certiport" target="_blank">
+                        <img src="/Portal/images/twitter-bw.png" alt="Certiport on Twitter"
+                            title="Certiport on Twitter" border="0" /></a> <a href="http://www.facebook.com/certiport"
+                                target="_blank">&nbsp;&nbsp;&nbsp;
+						<img src="/Portal/images/facebook-bw.png" alt="Certiport on Facebook"
+                            title="Certiport on Facebook" border="0" /></a> <a href="http://www.linkedin.com/company/18021?trk=tyah"
+                                target="_blank">&nbsp;&nbsp;&nbsp;
+						<img src="/Portal/images/linkedin-bw.png" alt="Certiport on LinkedIn"
+                            title="Certiport on LinkedIn" border="0" /></a> <a href="http://www.youtube.com/user/certiportcomms"
+                                target="_blank">&nbsp;&nbsp;&nbsp;
+						<img src="/Portal/images/youtube-bw.png" alt="Certiport on Youtube"
+                            title="Certiport on Youtube" border="0" />
+                            </a>
+                </div>
+            </td>
+	</tr>
+	<tr>
+		<td colspan="3" width="100%" valign="top" align="center" style="white-space:&#32;nowrap;">
+                <span id="c_Footer_c_CookieStatement" class="plaintext">This website uses cookies. Continuing to use this website gives consent to cookies being used. For more information see our <a href="javascript:displayCookieFooter();" alt="Cookies Policy" title="Cookies Policy" runat="server">cookies policy</a>.</span>
+            </td>
+	</tr>
+	<tr>
+		<td colspan="3">
+                <div class="closeWindow">
+                    <a id="c_Footer_c_CloseDeliveryBrowserFooter" title="Close&#32;Window" class="outOfTheWay" href="javascript:deliveryBrowser.closeWindow();">Close Window</a>
+                </div>
+            </td>
+	</tr>
+</table>
+
+
+</div>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        if (isSBRunning()) {
+            document
+                .querySelector('#c_Footer_c_CloseDeliveryBrowserFooter')
+                .classList
+                .remove('outOfTheWay');
+        } 
+    });
+</script>
+
+
+</footer></div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('c_ShowAccessibility_c_CommandBtn');//]]>
+</script>
+</form>
+
+    <script type="text/javascript">
+        $("#c_DoneBtn_c_CommandBtn").click(function () {
+            if (isSBRunning()) {
+                deliveryBrowser.closeWindow();
+            }
+        });
+    </script>
+
+</body>
+</html>
