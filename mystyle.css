@@ -27,3 +27,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
 }
+
+a {
+  font: size 20px;
+  color:#00b9ff
+}
