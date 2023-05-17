@@ -1,5 +1,5 @@
  h1 {
-    color: #fafafa;
+    color: #111;
     text-align: left;
     font-size: 40px;
   }
@@ -21,8 +21,8 @@ marquee {
 
 
 body {
-  background-color: #1a1a1a;
-  color: #fafafa;
+  background-color: #fbfbfb;
+  color: #1f1f1f;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;

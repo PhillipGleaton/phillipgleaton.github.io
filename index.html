@@ -1,51 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
         <title> Phillip Gleaton </title>
         <link rel="stylesheet" href="mystyle.css">
     </head>
+    <h1>Phillip Gleaton</h1>
+    <style>
 
-<h1>        
-Phillip Gleaton
-</h1>
-    <body>   
-    <h2>
-    Hi! As the title suggests, I'm Phillip!
-    </h2>
-    <p>I'm a 20 year old looking to get a role relating to IT, whether it be hardware or software!
-        While my website is not impressive, my knowledge of computer hardware and software certainly makes up for it. I'm planning to get certified in CompTIA A+ and Network+ as soon as possible.
-    </p>
-    <br><br><br><br><br>
-
-
-    <h2>What can I do?</h2>
-    <p>I have multiple certifications including (but soon not limited to): Microsoft Office Specialist Expert for Office 365, and Microsoft Operating System Fundamentals. Below you can see the certificates for yourself.</p>
+        .navbar {
+          background-color: #111;
+          overflow: hidden;
+          
+        }
     
-     <a href="images/MOS2019.pdf">Office 2019 Expert</a> <a href="images/WOSF.pdf">Windows Operating System Fundamentals</a>
-     </ul>
-     
-     <br><br><br><br><br>
+        .navbar a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 14px 20px;
+          text-decoration: navajowhite;
+          font-size: 16px;
+        
+        }
+    
+        .navbar a:hover {
+          background-color: #ddd;
+          color: black;
+        }
 
-<h2 text-align:left> Where have I been so far?</h2>
-<p>From September 2021 to August 2022, I worked at the Amazon Fulfillment site BHM1 in the following roles, Directed Pack AFE, Waterspider, Outbound Sort, Mix Pack, and Outbound Pick. I originally planned to apply for a role in their IT department, but I decided to part ways with Amazon to persue an outside company for my IT dreams.</p>
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: top;
+            flex-direction: column;
+            height: 120vh;
+            margin: 0;
+        }
+    
+        .rounded-square {
+          width: 50%;
+          height: 50%;
+          max-width: 75%;
+          max-height: 75%;
+          border-radius: 20px;
+          background-color: #f2f2f2;
+          padding: 3%;
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 20px;
+          box-sizing: border-box;
+          margin-top: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="navbar">
+        <a href="#" onclick="showContent('AboutMe')">About</a>
+        <a href="#" onclick="showContent('Experience')">Experience</a>
+        <a href="#" onclick="showContent('Certifications')">Certifications</a>
+        <a href="#" onclick="showContent('Projects')">Projects</a>
+        <a href="#" onclick="showContent('Contact')">Contact</a>
+      </div>
+    
+       <div class="content-container">
+        <div id="About Me" class="rounded-square">
+            I'm Phillip! I'm a 21 year old working hard to try and make a career in Information Technology!
+            <br><br>
+            I've been working hard to get to where I am so far, including learning Python, HTML, and CSS.
+            <br><br>
+            I'm also learning as much as I can about computer hardware and software in order to aid my goal!
+        </div>
+        
+        <div id="Experience" class="rounded-square" style="display: none;">
+            So far, I worked at Amazon Fulfillment for just under a year, and I've trained in different forms of Pack, Pick, and Problem Solve.
+            <br><br>
+            I went to Bibb County High School, and the Bibb County Career Academy for Commerce and Information Technology, where I got a Standard Technical Diploma.
 
-<br><br><br><br><br>
-
-
-<h2>What am I working on now?</h2>
-<p>Well, you're looking at my main project! I've been working on my website to improve my skills in HTML and CSS. I hope to also work further on my skills with Python.
-</p>
-<p>I'm also working on my Python skills using Pycord for Discord bots. The current bot I'm working on is designed to ping a user when a channel is used. Nothing too special, just a small practice project. It'll go up on my GitHub once I get it in a portable format.</p>
-<br>
-
-    <h2>You can find me at the links below!</h2>
-    <ul>
-    <a href="mailto:phillipgleaton@gmail.com" target="_blank">Gmail</a>
-    <a href="https://github.com/PhillipGleaton" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/phillip-collin-gleaton" target="_blank">LinkedIn</a>
-    </ul>
-    </body>
-    <!--The fonts used are Segoe UI, Tahoma, Geneva, and Veranda-->
+        </div>
+        
+        <div id="Certifications" class="rounded-square" style="display: none;">
+            I have a Microsoft Office Expert certification for Office 365 and 2019, along with a Microsoft Technical Associate certifcation in Operating System Fundamentals.
+            Below are links to PDFs showing said certifications.
+            <br><br><br><br>
+            <a href="images/MOS2019.pdf">Office 365 and 2019</a>
+            <br>
+            <a href="images/WOSF.pdf">Windows Operating System Fundamentals</a>
+        </div>
+        <div id="Projects" class="rounded-square" style="display: none;">
+            My current projects include:
+            <br> This website! I've been working hard to improve my HTML and CSS, and a bit of JavaScript with it, this website has all three!
+            <br><br> I've also been working on a Discord bot that would allow a user to be pinged when a specific channel is talked in. It uses Pycord extensively in order to take advantage of Discord's API.
+        </div>
+        <div id="Contact" class="rounded-square" style="display: none;">
+            Here's where you can contact me!
+            <br><br><br><br><br>
+            <ul>
+              <a href="mailto:phillipgleaton@gmail.com" target="_blank">Gmail</a><br><br>
+              <a href="https://github.com/PhillipGleaton" target="_blank">GitHub</a><br><br>
+              <a href="https://www.linkedin.com/in/phillip-collin-gleaton" target="_blank">LinkedIn</a>
+              </ul>
+        </div>
+      </div>  
+      <script>
+        function showContent(contentId) {
+          var contents = document.getElementsByClassName('rounded-square');
+          for (var i = 0; i < contents.length; i++) {
+            if (contents[i].id === contentId) {
+              contents[i].style.display = 'block';
+            } else {
+              contents[i].style.display = 'none';
+            }
+          }
+        }
+      </script>
+        </div>
+      </body>
 </html>
